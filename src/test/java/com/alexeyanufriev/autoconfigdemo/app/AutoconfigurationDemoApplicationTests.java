@@ -18,8 +18,8 @@ class AutoconfigurationDemoApplicationTests {
 
 	@Test
 	void completeSetOfBeansShouldBeAutowired() {
-		Assertions.assertThat(this.mainBean).isNotNull();
 		Assertions.assertThat(this.dependencyBean).isNotNull();
+		Assertions.assertThat(this.mainBean).isNotNull();
 	}
 
 }

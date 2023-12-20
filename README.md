@@ -16,3 +16,7 @@ but since `DependencyBean` will be created then `MainBean` should also be create
 ### Actual Result
 
 None of the beans created.
+
+## Reproducing Steps
+
+`mvn clean test`

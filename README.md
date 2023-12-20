@@ -15,7 +15,7 @@ but since `DependencyBean` will be created then `MainBean` should also be create
 
 ### Actual Result
 
-All the beans are created.
+None of the beans created.
 
 ## Reproducing Steps
 
